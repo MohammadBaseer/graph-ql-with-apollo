@@ -9,3 +9,13 @@ export const GETALLCOUNTRIES = gql`
     }
   }
 `;
+
+export const GETCOUNTRIESBYCONTINENT = gql`
+  query GetCountriesByContinent($filter: CountryFilterInput) {
+    countries(filter: $filter) {
+      name
+      emoji
+      code
+    }
+  }
+`;
