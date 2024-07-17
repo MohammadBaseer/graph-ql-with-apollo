@@ -30,7 +30,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link className={styles.links} href="/countriesByContinentCSR">
+          <Link className={styles.links} href="/countriesByContinentCSR?continent=EU">
             Apollo GraphQL Countries By Continent CSR
           </Link>
         </li>
