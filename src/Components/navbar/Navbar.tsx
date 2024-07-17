@@ -19,6 +19,16 @@ const Navbar = () => {
             GraphQL CSR
           </Link>
         </li>
+        <li>
+          <Link className={styles.links} href="/allCountriesCSR">
+            Apollo GraphQL CSR
+          </Link>
+        </li>
+        <li>
+          <Link className={styles.links} href="/allCountriesSSR">
+            Apollo GraphQL SSR
+          </Link>
+        </li>
       </ul>
     </nav>
   );

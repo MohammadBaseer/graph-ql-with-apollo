@@ -12,3 +12,13 @@ export type CountryTypes = {
   capital: string;
   code: string;
 };
+
+export type GetAllCountriesType = {
+  countries: [
+    {
+      name: string;
+      code: string;
+      emoji: string;
+    }
+  ];
+};
