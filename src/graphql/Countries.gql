@@ -1,0 +1,15 @@
+query CountriesBeginWithTheLetterA {
+  countries(filter: { continent: { regex: "^A" } }) {
+    code
+    name
+    currency
+  }
+}
+
+query GetAllCountries {
+  countries {
+    name
+    code
+    emoji
+  }
+}
